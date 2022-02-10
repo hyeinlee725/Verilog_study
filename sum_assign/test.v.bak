@@ -1,0 +1,21 @@
+module test;
+ reg A, B, C_IN;
+ wire SUM, C_OUT;
+   
+initial begin
+ A = 0; B = 0; C_IN = 0;
+ #5 C_IN=1;
+ #5 B=1; C_IN=0;
+ #5 C_IN=1;
+ #5 A=1; B=0; C_IN=0;
+ #5 C_IN=1;
+ #5 B=1; C_IN=0;
+ #5 C_IN=1;
+end
+ 
+fa_assign g0(SUM, C_OUT, A, B, C_IN);
+ 
+initial $monitor($time, "A=%B, B=%B, C_IN=%B, SUM=%B, C_OUT=%B", A, B, C_IN, SUM, C_OUT);
+ 
+initial #45 $finish;
+endmodule
