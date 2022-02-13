@@ -1,0 +1,15 @@
+vendor_name = ModelSim
+source_file = 1, C:/intelFPGA_lite/17.1/fa_case/fa_case.v
+source_file = 1, C:/intelFPGA_lite/17.1/fa_case/db/fa_case.cbx.xml
+design_name = fa_case
+instance = comp, \SUM~output , SUM~output, fa_case, 1
+instance = comp, \C_OUT~output , C_OUT~output, fa_case, 1
+instance = comp, \A~input , A~input, fa_case, 1
+instance = comp, \C_IN~input , C_IN~input, fa_case, 1
+instance = comp, \B~input , B~input, fa_case, 1
+instance = comp, \WideOr1~0 , WideOr1~0, fa_case, 1
+instance = comp, \WideOr0~0 , WideOr0~0, fa_case, 1
+design_name = hard_block
+instance = comp, \~ALTERA_ASDO_DATA1~~ibuf , ~ALTERA_ASDO_DATA1~~ibuf, hard_block, 1
+instance = comp, \~ALTERA_FLASH_nCE_nCSO~~ibuf , ~ALTERA_FLASH_nCE_nCSO~~ibuf, hard_block, 1
+instance = comp, \~ALTERA_DATA0~~ibuf , ~ALTERA_DATA0~~ibuf, hard_block, 1
