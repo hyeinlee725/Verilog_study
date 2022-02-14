@@ -1,0 +1,17 @@
+vendor_name = ModelSim
+source_file = 1, C:/intelFPGA_lite/17.1/mux_assign/mux_assign.v
+source_file = 1, C:/intelFPGA_lite/17.1/mux_assign/db/mux_assign.cbx.xml
+design_name = mux_assign
+instance = comp, \out~output , out~output, mux_assign, 1
+instance = comp, \s1~input , s1~input, mux_assign, 1
+instance = comp, \c~input , c~input, mux_assign, 1
+instance = comp, \d~input , d~input, mux_assign, 1
+instance = comp, \a~input , a~input, mux_assign, 1
+instance = comp, \s0~input , s0~input, mux_assign, 1
+instance = comp, \b~input , b~input, mux_assign, 1
+instance = comp, \out~0 , out~0, mux_assign, 1
+instance = comp, \out~1 , out~1, mux_assign, 1
+design_name = hard_block
+instance = comp, \~ALTERA_ASDO_DATA1~~ibuf , ~ALTERA_ASDO_DATA1~~ibuf, hard_block, 1
+instance = comp, \~ALTERA_FLASH_nCE_nCSO~~ibuf , ~ALTERA_FLASH_nCE_nCSO~~ibuf, hard_block, 1
+instance = comp, \~ALTERA_DATA0~~ibuf , ~ALTERA_DATA0~~ibuf, hard_block, 1
