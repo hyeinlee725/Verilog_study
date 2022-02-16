@@ -1,0 +1,54 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/intelFPGA_lite/17.1/mux_verilog/simulation/modelsim
+vmux_verilog
+!s110 1626312594
+!i10b 1
+!s100 7R9UFXjICiXSQ@;miD[6Q2
+I0UfAHzia96jnWnRdTNWR32
+Z1 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1626267159
+8C:/intelFPGA_lite/17.1/mux_verilog/mux_verilog.v
+FC:/intelFPGA_lite/17.1/mux_verilog/mux_verilog.v
+L0 1
+Z2 OV;L;10.5b;63
+r1
+!s85 0
+31
+!s108 1626312594.000000
+!s107 C:/intelFPGA_lite/17.1/mux_verilog/mux_verilog.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/intelFPGA_lite/17.1/mux_verilog|C:/intelFPGA_lite/17.1/mux_verilog/mux_verilog.v|
+!i113 1
+Z3 o-vlog01compat -work work
+Z4 !s92 -vlog01compat -work work +incdir+C:/intelFPGA_lite/17.1/mux_verilog
+Z5 tCvgOpt 0
+vmux_verilog_tb
+!s110 1626312595
+!i10b 1
+!s100 Q0jO]DkJ3`Gbbc4d25o9N0
+I^AXgA]22z<BL@f1<cd8W33
+R1
+R0
+w1626311979
+8C:/intelFPGA_lite/17.1/mux_verilog/mux_verilog_tb.v
+FC:/intelFPGA_lite/17.1/mux_verilog/mux_verilog_tb.v
+L0 1
+R2
+r1
+!s85 0
+31
+!s108 1626312595.000000
+!s107 C:/intelFPGA_lite/17.1/mux_verilog/mux_verilog_tb.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/intelFPGA_lite/17.1/mux_verilog|C:/intelFPGA_lite/17.1/mux_verilog/mux_verilog_tb.v|
+!i113 1
+R3
+R4
+R5

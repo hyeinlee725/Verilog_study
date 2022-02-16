@@ -1,0 +1,162 @@
+# Reading C:/intelFPGA_lite/17.1/modelsim_ase/tcl/vsim/pref.tcl
+# do mux_verilog_run_msim_rtl_verilog.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim - Intel FPGA Edition vmap 10.5b Lib Mapping Utility 2016.10 Oct  5 2016
+# vmap work rtl_work 
+# Copying C:/intelFPGA_lite/17.1/modelsim_ase/win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# 
+# vlog -vlog01compat -work work +incdir+C:/intelFPGA_lite/17.1/mux_verilog {C:/intelFPGA_lite/17.1/mux_verilog/mux_verilog.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 10:29:54 on Jul 15,2021
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/intelFPGA_lite/17.1/mux_verilog" C:/intelFPGA_lite/17.1/mux_verilog/mux_verilog.v 
+# -- Compiling module mux_verilog
+# 
+# Top level modules:
+# 	mux_verilog
+# End time: 10:29:54 on Jul 15,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vlog -vlog01compat -work work +incdir+C:/intelFPGA_lite/17.1/mux_verilog {C:/intelFPGA_lite/17.1/mux_verilog/mux_verilog_tb.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 10:29:55 on Jul 15,2021
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/intelFPGA_lite/17.1/mux_verilog" C:/intelFPGA_lite/17.1/mux_verilog/mux_verilog_tb.v 
+# -- Compiling module mux_verilog_tb
+# 
+# Top level modules:
+# 	mux_verilog_tb
+# End time: 10:29:55 on Jul 15,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cycloneive_ver -L rtl_work -L work -voptargs="+acc"  mux_verilog_tb
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cycloneive_ver -L rtl_work -L work -voptargs=""+acc"" mux_verilog_tb 
+# Start time: 10:29:55 on Jul 15,2021
+# Loading work.mux_verilog_tb
+# Loading work.mux_verilog
+# 
+# add wave *
+# view structure
+# .main_pane.structure.interior.cs.body.struct
+# view signals
+# .main_pane.objects.interior.cs.body.tree
+# run -all
+# At time =                    0, Output = 0
+# At time =                    5, Output = x
+# At time =                   10, Output = x
+# At time =                   15, Output = x
+# At time =                   20, Output = x
+# At time =                   25, Output = x
+# At time =                   30, Output = x
+# At time =                   35, Output = x
+# At time =                   40, Output = x
+# At time =                   45, Output = x
+# At time =                   50, Output = 1
+# At time =                   55, Output = 1
+# At time =                   60, Output = 1
+# At time =                   65, Output = 1
+# At time =                   70, Output = 1
+# At time =                   75, Output = 1
+# At time =                   80, Output = 0
+# At time =                   85, Output = 0
+# At time =                   90, Output = 1
+# At time =                   95, Output = 1
+# At time =                  100, Output = 0
+# At time =                  105, Output = 0
+# At time =                  110, Output = 1
+# At time =                  115, Output = 1
+# At time =                  120, Output = 0
+# At time =                  125, Output = 0
+# At time =                  130, Output = 1
+# At time =                  135, Output = 1
+# At time =                  140, Output = 0
+# At time =                  145, Output = 0
+# At time =                  150, Output = 1
+# At time =                  155, Output = 1
+# At time =                  160, Output = 0
+# At time =                  165, Output = 0
+# At time =                  170, Output = 0
+# At time =                  175, Output = 0
+# At time =                  180, Output = 1
+# At time =                  185, Output = 1
+# At time =                  190, Output = 1
+# At time =                  195, Output = 1
+# At time =                  200, Output = 0
+# At time =                  205, Output = 0
+# At time =                  210, Output = 0
+# At time =                  215, Output = 0
+# At time =                  220, Output = 1
+# At time =                  225, Output = 1
+# At time =                  230, Output = 1
+# At time =                  235, Output = 1
+# At time =                  240, Output = 0
+# At time =                  245, Output = 1
+# At time =                  250, Output = 0
+# At time =                  255, Output = 1
+# At time =                  260, Output = 0
+# At time =                  265, Output = 1
+# At time =                  270, Output = 0
+# At time =                  275, Output = 1
+# At time =                  280, Output = 0
+# At time =                  285, Output = 1
+# At time =                  290, Output = 0
+# At time =                  295, Output = 1
+# At time =                  300, Output = 0
+# At time =                  305, Output = 1
+# At time =                  310, Output = 0
+# At time =                  315, Output = 1
+# At time =                  320, Output = 0
+# At time =                  325, Output = 0
+# At time =                  330, Output = 0
+# At time =                  335, Output = 0
+# At time =                  340, Output = 0
+# At time =                  345, Output = 0
+# At time =                  350, Output = 0
+# At time =                  355, Output = 0
+# At time =                  360, Output = 1
+# At time =                  365, Output = 1
+# At time =                  370, Output = 1
+# At time =                  375, Output = 1
+# At time =                  380, Output = 1
+# At time =                  385, Output = 1
+# At time =                  390, Output = 1
+# At time =                  395, Output = 1
+# At time =                  400, Output = 0
+# At time =                  405, Output = 0
+# At time =                  410, Output = 1
+# At time =                  415, Output = 1
+# At time =                  420, Output = 0
+# At time =                  425, Output = 0
+# At time =                  430, Output = 1
+# At time =                  435, Output = 1
+# At time =                  440, Output = 0
+# At time =                  445, Output = 0
+# At time =                  450, Output = 1
+# At time =                  455, Output = 1
+# At time =                  460, Output = 0
+# At time =                  465, Output = 0
+# At time =                  470, Output = 1
+# At time =                  475, Output = 1
+# At time =                  480, Output = 0
+# At time =                  485, Output = 0
+# At time =                  490, Output = 0
+# At time =                  495, Output = 0
+# At time =                  500, Output = 1
+# At time =                  505, Output = 1
+# At time =                  510, Output = 1
+# At time =                  515, Output = 1
+# At time =                  520, Output = 0
+# At time =                  525, Output = 0
+# At time =                  530, Output = 0
+# At time =                  535, Output = 0
+# At time =                  540, Output = 1
+# At time =                  545, Output = 1
+# ** Note: $finish    : C:/intelFPGA_lite/17.1/mux_verilog/mux_verilog_tb.v(13)
+#    Time: 550 ps  Iteration: 0  Instance: /mux_verilog_tb
+# 1
+# Break in Module mux_verilog_tb at C:/intelFPGA_lite/17.1/mux_verilog/mux_verilog_tb.v line 13
+# End time: 10:37:09 on Jul 15,2021, Elapsed time: 0:07:14
+# Errors: 0, Warnings: 0
