@@ -1,0 +1,48 @@
+# Reading C:/intelFPGA_lite/17.1/modelsim_ase/tcl/vsim/pref.tcl
+# do nand_beh_run_msim_gate_verilog.do
+# if {[file exists gate_work]} {
+# 	vdel -lib gate_work -all
+# }
+# vlib gate_work
+# vmap work gate_work
+# Model Technology ModelSim - Intel FPGA Edition vmap 10.5b Lib Mapping Utility 2016.10 Oct  5 2016
+# vmap work gate_work 
+# Copying C:/intelFPGA_lite/17.1/modelsim_ase/win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# 
+# vlog -vlog01compat -work work +incdir+. {nand_beh_6_1200mv_85c_slow.vo}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 20:47:31 on Jul 07,2021
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+." nand_beh_6_1200mv_85c_slow.vo 
+# -- Compiling module nand_beh
+# -- Compiling module hard_block
+# 
+# Top level modules:
+# 	nand_beh
+# End time: 20:47:31 on Jul 07,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+vsim -gui -l msim_transcript gate_work.nand_beh -sdftyp /=C:/intelFPGA_lite/17.1/nand_behavior/simulation/modelsim/nand_beh_v.sdo
+# vsim -gui -l msim_transcript gate_work.nand_beh -sdftyp /=C:/intelFPGA_lite/17.1/nand_behavior/simulation/modelsim/nand_beh_v.sdo 
+# Start time: 20:47:51 on Jul 07,2021
+# Loading gate_work.nand_beh
+# Loading gate_work.hard_block
+# ** Error: (vsim-3033) nand_beh_6_1200mv_85c_slow.vo(72): Instantiation of 'cycloneive_io_obuf' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /nand_beh File: nand_beh_6_1200mv_85c_slow.vo
+#         Searched libraries:
+#             C:/intelFPGA_lite/17.1/nand_behavior/simulation/modelsim/gate_work
+# ** Error: (vsim-3033) nand_beh_6_1200mv_85c_slow.vo(85): Instantiation of 'cycloneive_io_ibuf' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /nand_beh File: nand_beh_6_1200mv_85c_slow.vo
+#         Searched libraries:
+#             C:/intelFPGA_lite/17.1/nand_behavior/simulation/modelsim/gate_work
+# ** Error: (vsim-3033) nand_beh_6_1200mv_85c_slow.vo(95): Instantiation of 'cycloneive_io_ibuf' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /nand_beh File: nand_beh_6_1200mv_85c_slow.vo
+#         Searched libraries:
+#             C:/intelFPGA_lite/17.1/nand_behavior/simulation/modelsim/gate_work
+# ** Error: (vsim-3033) nand_beh_6_1200mv_85c_slow.vo(105): Instantiation of 'cycloneive_lcell_comb' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /nand_beh File: nand_beh_6_1200mv_85c_slow.vo
+#         Searched libraries:
+#             C:/intelFPGA_lite/17.1/nand_behavior/simulation/modelsim/gate_work
+# Error loading design
+# End time: 20:47:51 on Jul 07,2021, Elapsed time: 0:00:00
+# Errors: 4, Warnings: 0
